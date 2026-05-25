@@ -1,23 +1,7 @@
 node_modules/
-.env
 dist/
 client/node_modules/
 server/node_modules/
 server/uploads/
 *.log
 
-# Project specific junk and debug files
-*.docx
-*.pdf
-*.txt
-*.py
-*.vsdx
-test_*.png
-depositphotos*
-*_structure*.png
-db_schema.png
-structure_final.png
-screenshots/
-screenshots_A4/
-setup.bat
-make_history.ps1
