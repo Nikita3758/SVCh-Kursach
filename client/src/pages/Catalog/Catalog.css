@@ -1,0 +1,21 @@
+.catalog { padding: 4rem 0; background: #f8f9fc; min-height: calc(100vh - 200px); }
+.catalog__container { max-width: 1400px; margin: 0 auto; padding: 0 2rem; display: flex; flex-direction: column; gap: 2rem; }
+.catalog__header { display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+.catalog__title { font-size: 3rem; font-weight: 700; color: #1e3a5f; }
+.catalog__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2.5rem; }
+.catalog__empty { text-align: center; padding: 5rem 2rem; background: white; border-radius: 1.2rem; box-shadow: 0 8px 25px rgba(0,0,0,0.08); }
+.catalog__empty-title { font-size: 1.5rem; font-weight: 700; color: #555; margin-bottom: 0.5rem; }
+.catalog__empty-hint { font-size: 1rem; color: #999; }
+.catalog__pagination { display: flex; justify-content: center; gap: 0.5rem; margin-top: 1rem; }
+.catalog__page-btn { background: white; border: 1.5px solid #e0e0e0; border-radius: 7px; padding: 0.5rem 1rem; font-size: 0.9rem; font-weight: 600; color: #555; cursor: pointer; transition: all 0.2s; }
+.catalog__page-btn:hover { border-color: #1e3a5f; color: #1e3a5f; }
+.catalog__page-btn--active { background-color: #1a365d; color: white; border-color: #1a365d; }
+.catalog__page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.catalog__reset-btn { margin-top: 1rem; padding: 0.6rem 1.5rem; background: #1a365d; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: background 0.2s; }
+.catalog__reset-btn:hover { background: #2c5282; }
+.catalog-skeleton { height: 380px; border-radius: 1.2rem; background: linear-gradient(90deg, #e8e8e8 25%, #f0f0f0 50%, #e8e8e8 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@media (max-width: 992px) { .catalog__title { font-size: 2.5rem; } }
+@media (max-width: 768px) { .catalog { padding: 3rem 0; } .catalog__container { padding: 0 1.25rem; } .catalog__title { font-size: 2rem; } .catalog__grid { grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1.8rem; } }
+@media (max-width: 480px) { .catalog__container { padding: 0 1rem; } .catalog__title { font-size: 1.6rem; } .catalog__grid { grid-template-columns: 1fr 1fr; gap: 1rem; } }
+@media (max-width: 360px) { .catalog__container { padding: 0 0.75rem; } .catalog__grid { grid-template-columns: 1fr; gap: 0.875rem; } }
