@@ -1,0 +1,31 @@
+.admin-dashboard__title { font-size: 1.6rem; font-weight: 700; color: #1a365d; margin-bottom: 24px; }
+.admin-dashboard__stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-bottom: 24px; }
+.admin-dashboard__charts { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; margin-bottom: 24px; }
+.admin-dashboard__chart-side { background: #fff; padding: 24px; border-radius: 1rem; border: 1px solid #eee; }
+.admin-dashboard__chart-title { font-size: 1.05rem; font-weight: 700; color: #1a365d; margin-bottom: 14px; }
+.admin-dashboard__recent { background: #fff; border-radius: 1rem; border: 1px solid #eee; overflow: hidden; }
+.admin-dashboard__recent-title { padding: 18px 24px; font-size: 1.05rem; font-weight: 700; color: #1a365d; border-bottom: 1px solid #eee; }
+.admin-dashboard__table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.admin-dashboard__table th { background: #f8f9fc; padding: 12px 16px; text-align: left; font-weight: 700; color: #1a365d; font-size: 0.82rem; text-transform: uppercase; }
+.admin-dashboard__table td { padding: 14px 16px; border-bottom: 1px solid #f4f4f4; color: #444; }
+.admin-dashboard__client { display: flex; align-items: center; gap: 10px; }
+.admin-dashboard__avatar { width: 30px; height: 30px; border-radius: 50%; background: #1a365d; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 700; }
+
+@media (max-width: 1100px) {
+  .admin-dashboard__charts { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  .admin-dashboard__title { font-size: 1.3rem; margin-bottom: 16px; }
+  .admin-dashboard__stats { grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 16px; }
+  .admin-dashboard__chart-side { padding: 16px; }
+  .admin-dashboard__recent { overflow-x: auto; }
+  .admin-dashboard__table { min-width: 560px; }
+}
+@media (max-width: 480px) {
+  .admin-dashboard__stats { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .admin-dashboard__recent-title { padding: 14px 16px; font-size: 0.95rem; }
+  .admin-dashboard__table th, .admin-dashboard__table td { padding: 10px 12px; }
+}
+@media (max-width: 360px) {
+  .admin-dashboard__stats { grid-template-columns: 1fr; }
+}
