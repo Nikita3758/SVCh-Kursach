@@ -1,0 +1,18 @@
+FREEWARE & NAGWARE LICENSE AGREEMENT (EULA)
+
+Project: Furniture Store Web Application
+Author: Nikita Sidorovich
+
+1. GRANT OF LICENSE
+The Author grants users a non-exclusive, non-transferable, free-of-charge right to access and use this web application solely for browsing the furniture catalog, calculating delivery costs, and placing orders.
+
+2. NAGWARE NOTICE
+This application is provided free of charge, but contains automated notifications and pop-up banners reminding users to register an account, join the loyalty program, or subscribe to store updates.
+
+3. PROPRIETARY RIGHTS & RESTRICTIONS
+- The source code, web design, asset databases, and promotional materials are proprietary.
+- You may not copy, reverse engineer, decompile, or scrape the product database and system scripts without prior written consent.
+- You may not resell or use this system or its content for commercial competing platforms.
+
+4. DISCLAIMER OF WARRANTY
+The software is provided "AS IS" without any warranties regarding continuous uptime or uninterrupted catalog access.
